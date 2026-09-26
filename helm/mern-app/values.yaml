@@ -1,0 +1,17 @@
+replicaCount: 2
+
+frontend:
+  image:
+    repository: 356042515069.dkr.ecr.us-east-1.amazonaws.com/streaming-frontend
+    tag: latest
+  service:
+    type: LoadBalancer
+    port: 80
+
+backend:
+  image:
+    repository: 356042515069.dkr.ecr.us-east-1.amazonaws.com/streaming-backend
+    tag: latest
+  service:
+    type: ClusterIP
+    port: 5000
