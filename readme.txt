@@ -43,6 +43,6 @@ System Architecture Diagram:
                         | ContainerInsights Logging  |
                         +----------------------------+
 
-Screenshot as below:
+Screenshot attached in Word file.
 
 
